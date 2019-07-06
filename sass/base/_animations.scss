@@ -1,0 +1,21 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes moveintop {
+  0% {
+    opacity: 0;
+    transform: translateY(-2.5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
