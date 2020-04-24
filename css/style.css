@@ -63,9 +63,6 @@ a {
     transition: all .3s
 }
 
-.uppercase {
-}
-
 .h-30 {
     height: 30px
 }
@@ -238,7 +235,6 @@ h5 {
 
 .box-primary-nav-trigger .box-menu-text {
     color: #393939;
-    text-transform: uppercase;
     font-weight: 700;
     display: none;
 }
