@@ -380,7 +380,6 @@ h5 {
 
 .box-primary-nav .box-label {
     color: #ffbf00;
-    text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
     margin: 2.4em 0 .8em;
@@ -429,7 +428,6 @@ h5 {
 
 .box-intro em {
     font-style: normal;
-    text-transform: uppercase
 }
 
 b i:last-child {
