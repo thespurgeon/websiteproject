@@ -1,571 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <title>Natours</title>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Box personal portfolio Template</title>
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,400,700,900&display=swap"
-      rel="stylesheet"
-    />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
 
-  <body>
-    <header class="header">
-      <div class="header__logo-box">
-        <div class="header__logo">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="38"
-            height="38"
-            viewBox="0 0 172 172"
-            style=" fill:#000000;"
-          >
-            <g
-              fill="none"
-              fill-rule="nonzero"
-              stroke="none"
-              stroke-width="1"
-              stroke-linecap="butt"
-              stroke-linejoin="miter"
-              stroke-miterlimit="10"
-              stroke-dasharray=""
-              stroke-dashoffset="0"
-              font-family="none"
-              font-weight="none"
-              font-size="none"
-              text-anchor="none"
-              style="mix-blend-mode: normal"
-            >
-              <path d="M0,172v-172h172v172z" fill="none"></path>
-              <g fill="#ffffff">
-                <g id="surface1">
-                  <path
-                    d="M68.155,6.7725l-0.7525,0.43l-37.84,17.2l-1.075,0.43l-0.5375,1.075l-20.64,37.84l-0.5375,0.86l0.1075,0.9675l3.44,51.6l0.1075,1.1825l0.7525,0.9675l34.4,37.84l0.86,0.86l1.1825,0.215l48.16,6.88l0.9675,0.1075l0.86,-0.3225l41.28,-17.2l0.9675,-0.43l17.7375,-24.8325l0.43,-0.7525l0.215,-0.7525l6.88,-44.72l0.1075,-0.86l-0.3225,-0.86l-13.76,-37.84l-0.3225,-0.9675l-0.9675,-0.645l-34.4,-24.08l-0.7525,-0.5375l-0.9675,-0.1075l-44.72,-3.44zM68.2625,14.2975l8.6,6.88l-27.4125,1.72zM79.6575,14.62l18.1675,1.3975l-11.18,4.1925zM112.1225,17.9525l12.685,19.0275l-29.67,-12.685zM126.5275,26.9825l14.62,10.32l-5.805,2.9025zM77.9375,28.0575l-19.565,21.93l-19.4575,-19.4575zM91.2675,29.9925l36.335,15.5875l-25.9075,20.7475zM84.3875,31.0675l10.105,35.1525l-30.2075,-12.5775zM33.97,35.475l19.78,19.78l-22.2525,24.6175zM26.66,42.57l-2.0425,36.8725l-10.2125,-14.2975zM145.985,42.6775l11.2875,30.96l-10.535,4.3l-8.4925,-31.39zM132.225,50.6325l7.4175,27.305l-32.25,-7.4175zM62.2425,60.415l31.39,13.0075l-28.7025,28.7025zM55.5775,63.425l2.4725,40.42l-25.2625,-15.1575zM104.5975,76.8625l33.97,7.8475l-23.5425,31.2825zM14.62,77.2925l8.9225,12.47l-7.2025,14.2975zM98.04,78.905l10.6425,39.99l-39.99,-10.6425zM157.2725,81.1625l-3.44,22.6825l-5.2675,-19.2425zM142.975,90.3l7.4175,26.9825l-29.455,2.4725zM33.0025,96.6425l22.6825,13.6525l-15.8025,11.2875zM26.5525,99.115l6.1275,22.2525l-14.19,-6.1275zM60.9525,115.025l16.2325,25.37l-32.3575,-13.8675zM69.66,115.67l36.765,9.7825l-19.6725,17.2zM147.5975,124.485l-10.6425,14.9425l-14.9425,-12.7925zM26.9825,126.3125l8.17,3.5475l3.5475,9.3525zM113.52,128.355l15.48,13.2225l-33.11,2.2575zM43.86,133.6225l30.4225,13.0075l-23.9725,4.3zM117.0675,149.3175l-19.565,8.17l-4.945,-6.5575zM84.495,151.6825l4.085,5.375l-19.0275,-2.6875z"
-                  ></path>
-                </g>
-              </g>
-            </g>
-          </svg>
-        </div>
-      </div>
 
-      <div class="header__text-box">
-        <h1 class="heading-primary">
-          <span class="heading-primary--main">Spurgeon C.</span>
-          <span class="heading-primary--sub">Designer</span>
-        </h1>
-        <a href="#" rel="nofollow" class="btn btn--white btn--animated">Don't touch</a>
-      </div>
-    </header>
+    <!-- modernizr -->
+    <script src="js/modernizr.js"></script>
 
-    <main>
-      <section class="section-about">
-        <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">
-            Exciting tours for adventurous people
-          </h2>
-        </div>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-        <div class="row">
-          <div class="col-1-of-2">
-            <h3 class="heading-tertiary u-margin-bottom-small">
-              You're going to fall in love with nature
-            </h3>
-            <p class="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              delectus praesentium corporis voluptates vel adipisci placeat
-              dicta fuga dolor nam!
-            </p>
+<body>
 
-            <h3 class="heading-tertiary u-margin-bottom-small">
-              Live adventures like you never have before
-            </h3>
-            <p class="paragraph">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam,
-              consectetur ut perferendis corrupti nulla dolore?
-            </p>
-
-            <a href="#" class="btn-text">Learn more &rarr;</a>
-          </div>
-          <div class="col-1-of-2">
-            <div class="composition">
-              <img
-                src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-                alt="Photo 1 "
-                class="composition__photo composition__photo--p1"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1453785675141-67637e2d4b5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-                alt="Photo 2"
-                class="composition__photo composition__photo--p2"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1442850473887-0fb77cd0b337?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-                alt="Photo 3"
-                class="composition__photo composition__photo--p3"
-              />
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
             </div>
-          </div>
         </div>
-      </section>
+    </div>
+    <!-- end Preloader -->
 
-      <section class="section-features">
-        <div class="row">
-          <div class="col-1-of-4">
-            <div class="feature-box">
-              <svg
-                class="feature-box__icon"
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                width="80"
-                height="75"
-                viewBox="0 0 172 172"
-                style=" fill:#000000;"
-              >
-                <g
-                  fill="none"
-                  fill-rule="nonzero"
-                  stroke="none"
-                  stroke-width="1"
-                  stroke-linecap="butt"
-                  stroke-linejoin="miter"
-                  stroke-miterlimit="10"
-                  stroke-dasharray=""
-                  stroke-dashoffset="0"
-                  font-family="none"
-                  font-weight="none"
-                  font-size="none"
-                  text-anchor="none"
-                  style="mix-blend-mode: normal"
-                >
-                  <path d="M0,172v-172h172v172z" fill="none"></path>
-                  <g fill="#2ecc71">
-                    <g id="surface1">
-                      <path
-                        d="M152.65,25.29609l-2.58672,0.5459l-40.44687,8.51602l-47.3,-8.6l-42.96641,9.04512v111.90078l43.03359,-9.06191l47.3,8.6l42.96641,-9.04512zM62.38359,30.14199l47.3,8.6l38.66641,-8.13809v103.09922l-38.73359,8.15488l-47.3,-8.6l-38.66641,8.13809v-103.09922zM47.3,43c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM60.2,43c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM73.1,43c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM40.85,49.45c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM53.75,49.45c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM79.55,49.45c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM92.45,49.45c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM105.35,49.45c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM34.4,55.9c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM47.3,55.9c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM60.2,55.9c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM73.1,55.9c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM86,55.9c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM98.9,55.9c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM40.85,62.35c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM53.75,62.35c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM92.45,62.35c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM105.35,62.35c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM118.25,62.35c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM131.15,62.35c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM34.4,68.8c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM47.3,68.8c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM86,68.8c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM98.9,68.8c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM111.8,68.8c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM124.7,68.8c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM137.6,68.8c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM40.85,75.25c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM53.75,75.25c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM79.55,75.25c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM92.45,75.25c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM105.35,75.25c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM118.25,75.25c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM131.15,75.25c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM34.4,81.7c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM47.3,81.7c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM60.2,81.7c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM73.1,81.7c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM86,81.7c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM98.9,81.7c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM111.8,81.7c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM124.7,81.7c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM137.6,81.7c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM40.85,88.15c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM53.75,88.15c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM79.55,88.15c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM92.45,88.15c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM105.35,88.15c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM118.25,88.15c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM131.15,88.15c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM34.4,94.6c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM47.3,94.6c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM86,94.6c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM98.9,94.6c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM124.7,94.6c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM137.6,94.6c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM40.85,101.05c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM53.75,101.05c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM92.45,101.05c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM105.35,101.05c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM131.15,101.05c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM47.3,107.5c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM86,107.5c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM98.9,107.5c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM40.85,113.95c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM92.45,113.95c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM131.15,113.95c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM47.3,120.4c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM86,120.4c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM98.9,120.4c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM124.7,120.4c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM137.6,120.4c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM40.85,126.85c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM92.45,126.85c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15zM131.15,126.85c-1.18418,0 -2.15,0.96582 -2.15,2.15c0,1.18418 0.96582,2.15 2.15,2.15c1.18418,0 2.15,-0.96582 2.15,-2.15c0,-1.18418 -0.96582,-2.15 -2.15,-2.15z"
-                      ></path>
-                    </g>
-                  </g>
-                </g>
-              </svg>
-              <h3 class="heading-tertiary u-margin-bottom-small">
-                Explore the world
-              </h3>
-              <p class="feature-box__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Veniam, reiciendis.
-              </p>
+    <div class="container-fluid">
+        <!-- box header -->
+        <header class="box-header">
+            <div class="box-logo">
+                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
             </div>
-          </div>
-
-          <div class="col-1-of-4">
-            <div class="feature-box">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                width="70"
-                height="80"
-                viewBox="0 0 172 172"
-                style=" fill:#000000;"
-              >
-                <g
-                  fill="none"
-                  fill-rule="nonzero"
-                  stroke="none"
-                  stroke-width="1"
-                  stroke-linecap="butt"
-                  stroke-linejoin="miter"
-                  stroke-miterlimit="10"
-                  stroke-dasharray=""
-                  stroke-dashoffset="0"
-                  font-family="none"
-                  font-weight="none"
-                  font-size="none"
-                  text-anchor="none"
-                  style="mix-blend-mode: normal"
-                >
-                  <path d="M0,172v-172h172v172z" fill="none"></path>
-                  <g fill="#2ecc71">
-                    <path
-                      d="M85.94625,6.83297c-0.19621,0.00345 -0.39177,0.02368 -0.58453,0.06047c-43.13612,0.34386 -78.10637,35.30282 -78.46828,78.43469c-0.08306,0.43051 -0.08306,0.87293 0,1.30344c0.34027,43.13922 35.30057,78.11307 78.43469,78.475c0.43051,0.08306 0.87293,0.08306 1.30344,0c43.13922,-0.34026 78.11307,-35.30057 78.475,-78.43469c0.08306,-0.43051 0.08306,-0.87293 0,-1.30344c-0.34037,-43.15272 -35.32228,-78.13463 -78.475,-78.475c-0.22584,-0.043 -0.45543,-0.06326 -0.68531,-0.06047zM82.56,13.84734v3.35266c-0.01754,1.24059 0.63425,2.39452 1.7058,3.01993c1.07155,0.62541 2.39684,0.62541 3.46839,0c1.07155,-0.62541 1.72335,-1.77935 1.7058,-3.01993v-3.35266c37.19596,1.73868 66.97398,31.5167 68.71265,68.71266h-3.35265c-1.24059,-0.01754 -2.39452,0.63425 -3.01993,1.7058c-0.62541,1.07155 -0.62541,2.39684 0,3.46839c0.62541,1.07155 1.77935,1.72335 3.01993,1.7058h3.35265c-1.73868,37.19596 -31.5167,66.97398 -68.71265,68.71265v-3.35265c0.01273,-0.92983 -0.35149,-1.82522 -1.00967,-2.48214c-0.65819,-0.65692 -1.55427,-1.01942 -2.48408,-1.00489c-1.89722,0.02966 -3.41223,1.58976 -3.38625,3.48703v3.35265c-37.19596,-1.73868 -66.97398,-31.5167 -68.71266,-68.71265h3.35266c1.24059,0.01754 2.39452,-0.63425 3.01993,-1.7058c0.62541,-1.07155 0.62541,-2.39684 0,-3.46839c-0.62541,-1.07155 -1.77935,-1.72335 -3.01993,-1.7058h-3.35266c1.73868,-37.19596 31.5167,-66.97398 68.71266,-68.71266zM127.15906,41.28c-0.64603,0.02337 -1.27241,0.22828 -1.80735,0.59125l-49.26859,33.28469c-0.36565,0.24676 -0.68043,0.56154 -0.92719,0.92719l-33.28469,49.26859c-0.92331,1.36555 -0.74828,3.19412 0.41732,4.35971c1.1656,1.1656 2.99416,1.34063 4.35971,0.41732l49.27531,-33.28469c0.36565,-0.24676 0.68042,-0.56154 0.92719,-0.92719l33.27797,-49.26859c0.72673,-1.07231 0.78953,-2.46194 0.16249,-3.59543c-0.62704,-1.13349 -1.83762,-1.8187 -3.13217,-1.77285zM80.4839,80.4839l11.03219,11.03219l-34.0036,22.9714z"
-                    ></path>
-                  </g>
-                </g>
-              </svg>
-              <h3 class="heading-tertiary u-margin-bottom-small">
-                Explore the world
-              </h3>
-              <p class="feature-box__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Veniam, reiciendis.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-1-of-4">
-            <div class="feature-box">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                width="80"
-                height="80"
-                viewBox="0 0 172 172"
-                style=" fill:#000000;"
-              >
-                <g
-                  fill="none"
-                  fill-rule="nonzero"
-                  stroke="none"
-                  stroke-width="1"
-                  stroke-linecap="butt"
-                  stroke-linejoin="miter"
-                  stroke-miterlimit="10"
-                  stroke-dasharray=""
-                  stroke-dashoffset="0"
-                  font-family="none"
-                  font-weight="none"
-                  font-size="none"
-                  text-anchor="none"
-                  style="mix-blend-mode: normal"
-                >
-                  <path d="M0,172v-172h172v172z" fill="none"></path>
-                  <g fill="#2ecc71">
-                    <path
-                      d="M64.27604,21.03809l-38.26888,15.31315c-2.72333,1.08933 -4.50716,3.7176 -4.50716,6.64876v100.33333c0,5.06683 5.11767,8.53359 9.82617,6.64876l33.39779,-13.35351l43,14.33333l38.26888,-15.31315c2.72333,-1.08933 4.50716,-3.71759 4.50716,-6.64876v-100.33333c0,-5.06683 -5.11767,-8.5336 -9.82617,-6.64876l-33.39778,13.35352zM71.66667,38.60482l28.66667,9.56022v85.23014l-28.66667,-9.56022zM57.33333,39.2487v84.89421l-21.5,8.6084v-84.89421zM136.16667,39.2487v84.89421l-21.5,8.6084v-84.89421z"
-                    ></path>
-                  </g>
-                </g>
-              </svg>
-              <h3 class="heading-tertiary u-margin-bottom-small">
-                Explore the world
-              </h3>
-              <p class="feature-box__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Veniam, reiciendis.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-1-of-4">
-            <div class="feature-box">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                width="80"
-                height="80"
-                viewBox="0 0 172 172"
-                style=" fill:#000000;"
-              >
-                <g
-                  fill="none"
-                  fill-rule="nonzero"
-                  stroke="none"
-                  stroke-width="1"
-                  stroke-linecap="butt"
-                  stroke-linejoin="miter"
-                  stroke-miterlimit="10"
-                  stroke-dasharray=""
-                  stroke-dashoffset="0"
-                  font-family="none"
-                  font-weight="none"
-                  font-size="none"
-                  text-anchor="none"
-                  style="mix-blend-mode: normal"
-                >
-                  <path d="M0,172v-172h172v172z" fill="none"></path>
-                  <g>
-                    <g id="surface1">
-                      <path
-                        d="M152.29167,43l-12.9056,-12.54167c-5.72494,-3.2194 -12.17774,-5.375 -19.3444,-5.375c-15.0472,0 -27.9528,8.95833 -34.04167,21.5c-6.08887,-12.9056 -18.99447,-21.5 -34.04167,-21.5c-20.78613,0 -37.625,16.83887 -37.625,37.625c0,10.75 4.2972,20.07227 11.46387,26.875l60.2028,60.91667l61.2806,-61.99447c6.4388,-6.4528 10.38607,-15.76107 10.38607,-25.7972c0,-7.16667 -2.1556,-13.9694 -5.375,-19.70833z"
-                        fill="#2ecc71"
-                      ></path>
-                      <path
-                        d="M139.38607,30.45833l-53.38607,53.75l-25.7972,-25.7972c-3.58333,-3.58333 -9.32226,-3.58333 -12.54167,0c-3.58333,3.58333 -3.58333,9.30827 0,12.54167l38.33887,38.33887l66.29167,-66.29167c-3.2194,-5.01107 -7.5306,-9.32226 -12.9056,-12.54167z"
-                        fill="#ffffff"
-                      ></path>
-                    </g>
-                  </g>
-                </g>
-              </svg>
-              <h3 class="heading-tertiary u-margin-bottom-small">
-                Explore the world
-              </h3>
-              <p class="feature-box__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Veniam, reiciendis.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-tours">
-        <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">
-            Most popular tours
-          </h2>
-        </div>
-
-        <div class="row">
-          <div class="col-1-of-3">
-            <div class="card">
-              <div class="card__side card__side--front">
-                
-                <div class="card__picture card__picture--1">
-                  &nbsp;
-                </div>  
-
-                <h4 class="card__heading">
-                  <span class="card__heading--span card__heading--span--1">
-                    The sea explorer
-                  </span> 
-                </h4>
-                
-                <div class="card__details">
-                  <ul>
-                    <li>3 day tours</li>
-                    <li>Up to 30 people</li>
-                    <li>2 tour guides</li>
-                    <li>Sleep in cozy hotels</li>
-                    <li>Difficulty: Easy</li>
-                  </ul>
-                </div>
-              
-              </div>
-              
-                  <div class="card__side card__side--back card__side--back-1">
-                    <div class="card__cta">
-                  
-                      <div class="card__price--box">
-                        <p class="card__price--only">
-                          Only
-                        </p>
-                        <p class="card__price--value">
-                          $299
-                        </p>
-                          </div>
-
-                      <a href="#" rel="nofollow" class="btn     btn--white btn--animated btn-position">
-                        Book Now
-                      </a>
-
-                    </div> 
-                  </div>
-                </div>  
-              </div>
-
-          <div class="col-1-of-3">
-              <div class="card">
-                <div class="card__side card__side--front">
-                  
-                  <div class="card__picture card__picture--2">
-                    &nbsp;
-                  </div>  
-  
-                  <h4 class="card__heading">
-                    <span class="card__heading--span card__heading--span--2">
-                      The forest hiker
-                    </span> 
-                  </h4>
-                  
-                  <div class="card__details">
-                    <ul>
-                      <li>5 day tours</li>
-                      <li>Up to 40 people</li>
-                      <li>6 tour guides</li>
-                      <li>Sleep in provided tents</li>
-                      <li>Difficulty: Medium</li>
-                    </ul>
-                  </div>
-                
-                </div>
-                
-                    <div class="card__side card__side--back card__side--back-2">
-                      <div class="card__cta">
-                    
-                        <div class="card__price--box">
-                          <p class="card__price--only">
-                            Only
-                          </p>
-                          <p class="card__price--value">
-                            $599
-                          </p>
-                            </div>
-  
-                        <a href="#" rel="nofollow" class="btn     btn--white btn--animated btn-position">
-                          Book Now
-                        </a>
-  
-                      </div> 
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="col-1-of-3">
-                    <div class="card">
-                      <div class="card__side card__side--front">
-                        
-                        <div class="card__picture card__picture--3">
-                          &nbsp;
-                        </div>  
-        
-                        <h4 class="card__heading">
-                          <span class="card__heading--span card__heading--span--3">
-                            The snow adventurer
-                          </span> 
-                        </h4>
-                        
-                        <div class="card__details">
-                          <ul>
-                            <li>6 day tours</li>
-                            <li>Up to 15 people</li>
-                            <li>3 tour guides</li>
-                            <li>Sleep in provided tents</li>
-                            <li>Difficulty: Hard</li>
-                          </ul>
-                        </div>
-                      
-                      </div>
-                      
-                          <div class="card__side card__side--back card__side--back-3">
-                            <div class="card__cta">
-                          
-                              <div class="card__price--box">
-                                <p class="card__price--only">
-                                  Only
-                                </p>
-                                <p class="card__price--value">
-                                  $899
-                                </p>
-                                  </div>
-        
-                              <a href="#" rel="nofollow" class="btn     btn--white btn--animated btn-position">
-                                Book Now
-                              </a>
-        
-                            </div> 
-                          </div>
-                        </div>
-                      </div>
-        </div>
-        
-        <div class="u-center-text u-margin-top-big">
-            <a href="#" rel="nofollow" class="btn         btn--green btn--animated btn-position">
-              Discover all tours
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
             </a>
-        </div>
+            <!-- box-primary-nav-trigger -->
+        </header>
+        <!-- end box header -->
 
-      </section>
-    
-    <section class="section-stories">  
-      <div class="u-center-text u-margin-bottom-big">
-         <h2 class="heading-secondary">
-            We make people genuinely happy
-        </h2>
-      </div>
-      
-      <div class="row">
-        <div class="story">
-          <figure class="story__shape">
-              <img
-              src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
-              alt="Photo 1 "
-              class="story__img"
-            />
-            <figcaption class="story__caption">
-              Mary Smith
-            </figcaption>
-          </figure>
-          <div class="story__text">
-            <h3 class="heading-tertiary u-margin-bottom-small">
-               I had the best week ever with my family.
-            </h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem unde eius delectus error culpa quaerat, fugiat, temporibus at officiis ab soluta nemo neque tenetur, pariatur assumenda ea quia! Magni ab eaque dolorum at ipsam! Enim delectus, dolore non laborum incidunt aut quod veritatis nostrum.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-</main>
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+                <li class="box-label">About me</li>
 
-    <!-- <section class="grid-test">
-      <div class="row">
-        <div class="col-1-of-2">
-          Col 1 of 2
-        </div>
-        <div class="col-1-of-2">
-          Col 1 of 2
-        </div>
-      </div>
+                <li><a href="index.html">Intro</a> <i class="ion-ios-circle-filled color"></i></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="portfolio.html">portfolio</a></li>
+                <li><a href="contact.html">contact me</a></li>
 
-      <div class="row">
-        <div class="col-1-of-3">
-          Col 1 of 3
-        </div>
-        <div class="col-1-of-3">
-          Col 1 of 3
-        </div>
-        <div class="col-1-of-3">
-          Col 1 of 3
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col-1-of-3">
-          Col 1 of 3
-        </div>
-        <div class="col-2-of-3">
-          Col 2 of 3
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col-1-of-4">
-          Col 1 of 4
-        </div>
-        <div class="col-1-of-4">
-          Col 1 of 4
-        </div>
-        <div class="col-1-of-4">
-          Col 1 of 4
-        </div>
-        <div class="col-1-of-4">
-          Col 1 of 4
-        </div>
-      </div>
+                <li class="box-label">Follow me</li>
 
-      <div class="row">
-        <div class="col-1-of-4">
-          Col 1 of 4
-        </div>
-        <div class="col-1-of-4">
-          Col 1 of 4
-        </div>
-        <div class="col-2-of-4">
-          Col 2 of 4
-        </div>
-      </div>
+                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
+            </ul>
+        </nav>
+        <!-- end nav -->
 
-      <div class="row">
-        <div class="col-1-of-4">
-          Col 1 of 4
+        <!-- box-intro -->
+        <section class="box-intro">
+            <div class="table-cell">
+                <h1 class="box-headline letters rotate-2">
+                    <span class="box-words-wrapper">
+                        <b class="is-visible">design.</b>
+                        <b>&nbsp;coding.</b>
+                        <b>graphic.</b>
+                    </span>
+		        </h1>
+                <h5>everything you need to build your personal portfolio</h5>
+            </div>
+
+            <div class="mouse">
+                <div class="scroll"></div>
+            </div>
+        </section>
+        <!-- end box-intro -->
+    </div>
+
+    <!-- portfolio div -->
+    <div class="portfolio-div">
+        <div class="portfolio">
+            <div class="no-padding portfolio_container">
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6  fashion logo">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Mockups in seconds</span>
+                                    <em>Fashion / Logo</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 ads graphics">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Floating mockups</span>
+                                    <em>Ads / Graphics</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-6 col-sm-12 photography">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Photorealistic smartwatch</span>
+                                    <em>Photography</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 fashion ads">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Held by hands</span>
+                                    <em>Fashion / Ads</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 graphics ads">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Mobile devices</span>
+                                    <em>Graphics / Ads</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-6 col-sm-12 photography">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Photorealistic smartwatch</span>
+                                    <em>Photography</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 graphics ads">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Mobile devices</span>
+                                    <em>Graphics / Ads</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 graphics ads">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Mobile devices</span>
+                                    <em>Graphics / Ads</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 graphics ads">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Mobile devices</span>
+                                    <em>Graphics / Ads</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-3 col-sm-6 graphics ads">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Mobile devices</span>
+                                    <em>Graphics / Ads</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+            </div>
+            <!-- end portfolio_container -->
         </div>
-        <div class="col-3-of-4">
-          Col 3 of 4
+        <!-- portfolio -->
+    </div>
+    <!-- end portfolio div -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright">© Box Portfolio 2016</p>
         </div>
-      </div>
-    </section> -->
-  </body>
+    </footer>
+    <!-- end footer -->
+
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- end back to top -->
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+
+    <!--  custom script -->
+    <script src="js/custom.js"></script>
+
+</body>
+
 </html>
